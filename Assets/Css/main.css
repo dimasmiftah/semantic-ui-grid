@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Futura;
+    src: url(/Assets/Font/FuturaPTBold.otf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(/Assets/Font/Lato-Light.ttf)
+}
+#menu {
+    background-color: white;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .2s;
+}
+#menu .item {
+    font-family: Futura;
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+#header {
+    padding: 10px 10px 25px 10px;
+    font-family: Futura;
+    font-size: 32px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+#home{
+    height: 520px;
+    background-color: #78D8DA;
+    overflow: hidden;
+}
+/* .column {
+    border: 1px solid;
+} */
+.hi {
+    font-family: Futura;
+    font-size: 50px;
+}
+#kiri {
+    padding-top: 60px;
+    padding-left: 35px;
+}
+#kiri .desc{
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+#button{
+    border: none;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 0;
+    font-family: Futura;
+    font-size: 13px;
+    letter-spacing: 3px;
+    padding: 20px 30px 20px 30px;
+    background: transparent;
+}
+#button:hover{
+    border-color: white;
+    color: white;
+}
+.dimasganteng{
+    width: 850px;
+    margin-left: -200px;
+    margin-top: -50px;
+    
+}
+#subheader {
+    padding: 40px;
+    font-family: Futura;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+#subheader hr {
+    display: inline-block;
+    width: 100px;
+    border: .5px solid;
+    margin-right: 20px;
+}
+#contact{
+    background: #FFE6E2;
+}
+#contact p{
+    font-size: 15px;
+}
+#contact .work {
+    margin-top: -45px;
+    margin-bottom: 40px;
+}
+#contact #button{
+    margin-bottom: 40px;
+}
+#footer {
+    background: #000000;
+    color: white;
+    font-family: Futura;
+    font-size: 10px;
+    padding: 40px 0 40px 0;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#mid {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+footer a{
+    color: white;
+}
